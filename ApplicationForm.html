@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>व्यवसाय दर्ता फारम</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="business-registration-form">
+            <div class="header">
+                <p>श्रीमान प्रमुख पञ्जीकाधिकारी ज्यु,<br>
+                जिल्ला पञ्जीकरण कार्यालय,<br>
+                पर्सा, वीरगञ्ज ।<br>
+                वडा नं. .............<br>
+                मिति: .............</p>
+            </div>
+            <h2>विषय : <u>व्यवसाय दर्ता गरी पाउँ भन्ने सम्बन्धमा ।</u> </h2>
+            <p>महाशय,<br>
+            उपरोक्त सम्बन्धमा म निवेदक .................. जिल्ला .......... न.पा./गा.वि.स वडा नं. ........ निवासी 
+            मेरो/हाम्रो तपसिलमा उल्लेखित व्यवसाय दर्ता गरी पाउँ भनी निवेदन पेश गरेको छु/छौं ।</p>
+            <h3>तपसिल</h3>
+            <div class="form-group-row">
+                <label for="applicant-name">व्यवसायीको नाम, थर:</label>
+                <input type="text" id="applicant-name" name="applicant-name" required>
+            </div>
+            <div class="form-group-row">
+                <label for="applicant-address">ठेगाना:</label>
+                <input type="text" id="applicant-address" name="applicant-address" required>
+            </div>
+            <div class="form-group-row">
+                <label for="business-location">व्यवसाय संचालन स्थान:</label>
+                <input type="text" id="business-location" name="business-location" required>
+            </div>
+            <div class="form-group-row">
+                <label for="business-type">व्यवसाय स्तर/किसिम:</label>
+                <input type="text" id="business-type" name="business-type" required>
+            </div>
+            <div class="form-group-row">
+                <label for="business-start-date">व्यवसाय शुरु मिति:</label>
+                <input type="date" id="business-start-date" name="business-start-date" required>
+            </div>
+            <div class="form-group-row">
+                <label for="total-capital">कुल पूँजी:</label>
+                <input type="number" id="total-capital" name="total-capital" required>
+            </div>
+            <div class="form-group-row">
+                <label for="fixed-capital">स्थिर पूँजी:</label>
+                <input type="number" id="fixed-capital" name="fixed-capital" required>
+            </div>
+            <div class="form-group-row">
+                <label for="current-capital">चालु पूँजी:</label>
+                <input type="number" id="current-capital" name="current-capital" required>
+            </div>
+            <div class="form-group-row">
+                <label for="fiscal-year-start">आ.व. सुरु मिति:</label>
+                <input type="date" id="fiscal-year-start" name="fiscal-year-start" required>
+            </div>
+            <div class="form-group-row">
+                <label for="fiscal-year-end">आ.व. अन्त्य मिति:</label>
+                <input type="date" id="fiscal-year-end" name="fiscal-year-end" required>
+            </div>
+            <hr class="seperation-line">
+            <h3>आवश्यक कागजपत्रहरु</h3>
+            <div class="form-group">
+                <label for="land-ownership">१. व्यवसाय संचालन गरेको स्थानको जग्गाधनी प्रमाण-पुर्जाको फोटोकपी</label>
+                <input type="file" id="land-ownership" name="land-ownership" required>
+            </div>
+            <hr>
+            <div class="form-group">
+                <label for="rental-agreement">२. घरजग्गा भाडामा लिई व्यवसाय संचालन भएको अवस्थामा घरजग्गा धनीसँग भएको करार सम्झौताको फोटोकपी</label>
+                <input type="file" id="rental-agreement" name="rental-agreement" required>
+            </div>
+            <hr>
+            <div class="form-group">
+                <label for="applicant-citizenship">३. व्यवसाय दर्ता गर्ने व्यक्तिको नागरिकताको फोटोकपी</label>
+                <input type="file" id="applicant-citizenship" name="applicant-citizenship" required>
+            </div>
+            <hr>
+            <div class="form-group">
+                <label for="applicant-passport-photo">४. व्यवसाय दर्ता गर्ने व्यक्तिको पासपोर्ट साईजको फोटो</label>
+                <input type="file" id="applicant-passport-photo" name="applicant-passport-photo" required>
+            </div>
+            <hr>
+            <div class="form-group">
+                <label for="business-plan">५. व्यवसायको काम, प्रकृति, यसबाट लाभान्वित हुने वर्ग, व्यवसाय संचालन पद्धतिलगायतका विषय समेटिएको व्यवसाय योजना</label>
+                <input type="file" id="business-plan" name="business-plan" required>
+            </div>
+            <hr>
+            <div class="form-group">
+                <label for="additional-documents">६. अन्य आवश्यक कागजातहरु</label>
+                <input type="file" id="additional-documents" name="additional-documents">
+            </div>
+            <hr class="seperation-line">
+            <h3>निवेदक/निवेदिका</h3>
+            <div class="form-group-row">
+                <label for="applicant-full-name">नाम, थर:</label>
+                <input type="text" id="applicant-full-name" name="applicant-full-name" required>
+            </div>
+            <div class="form-group-row">
+                <label for="applicant-address">ठेगाना:</label>
+                <input type="text" id="applicant-address" name="applicant-address" required>
+            </div>
+            <div class="form-group-row">
+                <label for="applicant-contact">सम्पर्क नं:</label>
+                <input type="text" id="applicant-contact" name="applicant-contact" required>
+            </div>
+            <button type="submit">पेश गर्नुहोस्</button>
+        </form>
+    </div>
+</body>
+</html>
