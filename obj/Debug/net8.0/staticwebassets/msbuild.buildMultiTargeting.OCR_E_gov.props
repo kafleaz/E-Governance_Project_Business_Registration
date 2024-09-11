@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OCR_E_gov.props" />
+</Project>

@@ -1,0 +1,271 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\OneDrive - College of Applied Business\\Desktop\\Labs\\E-gov\\OCR_E_gov\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{23871313-4061-4158-A7D6-58BB51C27615}|OCR_E_gov.csproj|c:\\users\\user\\onedrive - college of applied business\\desktop\\labs\\e-gov\\ocr_e_gov\\views\\admin\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23871313-4061-4158-A7D6-58BB51C27615}|OCR_E_gov.csproj|solutionrelative:views\\admin\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23871313-4061-4158-A7D6-58BB51C27615}|OCR_E_gov.csproj|c:\\users\\user\\onedrive - college of applied business\\desktop\\labs\\e-gov\\ocr_e_gov\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23871313-4061-4158-A7D6-58BB51C27615}|OCR_E_gov.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23871313-4061-4158-A7D6-58BB51C27615}|OCR_E_gov.csproj|c:\\users\\user\\onedrive - college of applied business\\desktop\\labs\\e-gov\\ocr_e_gov\\views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23871313-4061-4158-A7D6-58BB51C27615}|OCR_E_gov.csproj|solutionrelative:views\\admin\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23871313-4061-4158-A7D6-58BB51C27615}|OCR_E_gov.csproj|c:\\users\\user\\onedrive - college of applied business\\desktop\\labs\\e-gov\\ocr_e_gov\\views\\admin\\editcompany.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23871313-4061-4158-A7D6-58BB51C27615}|OCR_E_gov.csproj|solutionrelative:views\\admin\\editcompany.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23871313-4061-4158-A7D6-58BB51C27615}|OCR_E_gov.csproj|c:\\users\\user\\onedrive - college of applied business\\desktop\\labs\\e-gov\\ocr_e_gov\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23871313-4061-4158-A7D6-58BB51C27615}|OCR_E_gov.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23871313-4061-4158-A7D6-58BB51C27615}|OCR_E_gov.csproj|c:\\users\\user\\onedrive - college of applied business\\desktop\\labs\\e-gov\\ocr_e_gov\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23871313-4061-4158-A7D6-58BB51C27615}|OCR_E_gov.csproj|solutionrelative:models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23871313-4061-4158-A7D6-58BB51C27615}|OCR_E_gov.csproj|c:\\users\\user\\onedrive - college of applied business\\desktop\\labs\\e-gov\\ocr_e_gov\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23871313-4061-4158-A7D6-58BB51C27615}|OCR_E_gov.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23871313-4061-4158-A7D6-58BB51C27615}|OCR_E_gov.csproj|c:\\users\\user\\onedrive - college of applied business\\desktop\\labs\\e-gov\\ocr_e_gov\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23871313-4061-4158-A7D6-58BB51C27615}|OCR_E_gov.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23871313-4061-4158-A7D6-58BB51C27615}|OCR_E_gov.csproj|c:\\users\\user\\onedrive - college of applied business\\desktop\\labs\\e-gov\\ocr_e_gov\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23871313-4061-4158-A7D6-58BB51C27615}|OCR_E_gov.csproj|solutionrelative:controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23871313-4061-4158-A7D6-58BB51C27615}|OCR_E_gov.csproj|c:\\users\\user\\onedrive - college of applied business\\desktop\\labs\\e-gov\\ocr_e_gov\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23871313-4061-4158-A7D6-58BB51C27615}|OCR_E_gov.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23871313-4061-4158-A7D6-58BB51C27615}|OCR_E_gov.csproj|c:\\users\\user\\onedrive - college of applied business\\desktop\\labs\\e-gov\\ocr_e_gov\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23871313-4061-4158-A7D6-58BB51C27615}|OCR_E_gov.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23871313-4061-4158-A7D6-58BB51C27615}|OCR_E_gov.csproj|c:\\users\\user\\onedrive - college of applied business\\desktop\\labs\\e-gov\\ocr_e_gov\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23871313-4061-4158-A7D6-58BB51C27615}|OCR_E_gov.csproj|solutionrelative:views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/OCR_E_govDB/True/SqlTable/dbo.Company.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/OCR_E_govDB/True/SqlTable/dbo.Capital.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/OCR_E_govDB/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/OCR_E_govDB/True/SqlTable/dbo.Witness.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive - College of Applied Business\\Desktop\\Labs\\E-gov\\OCR_E_gov\\Models\\Company.cs",
+              "RelativeDocumentMoniker": "Models\\Company.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive - College of Applied Business\\Desktop\\Labs\\E-gov\\OCR_E_gov\\Models\\Company.cs",
+              "RelativeToolTip": "Models\\Company.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAowGUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T08:33:19.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive - College of Applied Business\\Desktop\\Labs\\E-gov\\OCR_E_gov\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive - College of Applied Business\\Desktop\\Labs\\E-gov\\OCR_E_gov\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T09:11:24.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditCompany.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive - College of Applied Business\\Desktop\\Labs\\E-gov\\OCR_E_gov\\Views\\Admin\\EditCompany.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditCompany.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive - College of Applied Business\\Desktop\\Labs\\E-gov\\OCR_E_gov\\Views\\Admin\\EditCompany.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditCompany.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T12:33:52.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive - College of Applied Business\\Desktop\\Labs\\E-gov\\OCR_E_gov\\Views\\Admin\\EditUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\EditUser.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive - College of Applied Business\\Desktop\\Labs\\E-gov\\OCR_E_gov\\Views\\Admin\\EditUser.cshtml",
+              "RelativeToolTip": "Views\\Admin\\EditUser.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAA4AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T08:22:18.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive - College of Applied Business\\Desktop\\Labs\\E-gov\\OCR_E_gov\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive - College of Applied Business\\Desktop\\Labs\\E-gov\\OCR_E_gov\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T08:11:27.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserList.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive - College of Applied Business\\Desktop\\Labs\\E-gov\\OCR_E_gov\\Views\\Admin\\UserList.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\UserList.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive - College of Applied Business\\Desktop\\Labs\\E-gov\\OCR_E_gov\\Views\\Admin\\UserList.cshtml",
+              "RelativeToolTip": "Views\\Admin\\UserList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T08:21:52.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive - College of Applied Business\\Desktop\\Labs\\E-gov\\OCR_E_gov\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive - College of Applied Business\\Desktop\\Labs\\E-gov\\OCR_E_gov\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Models\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T08:50:16.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive - College of Applied Business\\Desktop\\Labs\\E-gov\\OCR_E_gov\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive - College of Applied Business\\Desktop\\Labs\\E-gov\\OCR_E_gov\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAkwDoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T08:10:08.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CompanyController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive - College of Applied Business\\Desktop\\Labs\\E-gov\\OCR_E_gov\\Controllers\\CompanyController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CompanyController.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive - College of Applied Business\\Desktop\\Labs\\E-gov\\OCR_E_gov\\Controllers\\CompanyController.cs",
+              "RelativeToolTip": "Controllers\\CompanyController.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAUwIcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T04:30:55.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive - College of Applied Business\\Desktop\\Labs\\E-gov\\OCR_E_gov\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive - College of Applied Business\\Desktop\\Labs\\E-gov\\OCR_E_gov\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAALIAAAAAAAAAAAAwwPIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T08:18:04.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive - College of Applied Business\\Desktop\\Labs\\E-gov\\OCR_E_gov\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive - College of Applied Business\\Desktop\\Labs\\E-gov\\OCR_E_gov\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T09:02:00.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive - College of Applied Business\\Desktop\\Labs\\E-gov\\OCR_E_gov\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Register.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive - College of Applied Business\\Desktop\\Labs\\E-gov\\OCR_E_gov\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "Views\\User\\Register.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACoAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T08:07:55.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "dbo.Company [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/OCR_E_govDB/True/SqlTable/dbo.Company.sql",
+              "ToolTip": "dbo.Company [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-07-31T12:35:09.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "dbo.Users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/OCR_E_govDB/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "dbo.Users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-07-31T10:31:04.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "dbo.Witness [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/OCR_E_govDB/True/SqlTable/dbo.Witness.sql",
+              "ToolTip": "dbo.Witness [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-07-31T10:31:10.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "dbo.Capital [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/OCR_E_govDB/True/SqlTable/dbo.Capital.sql",
+              "ToolTip": "dbo.Capital [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-07-31T10:31:29.911Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+﻿@model OCR_E_gov.Models.Company_Register_display_Model
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Registration Form</title>
+    <link rel="stylesheet" href="~/css/style.css">
+    <script src="~/js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>कम्पनी रजिष्ट्रारको कार्यालय</h2>
+            <div class="header-right">
+                <a>Welcome, Admin</a>
+            </div>
+        </div>
+
+        <div class="content">
+            <h4>Admin Page</h4>
+
+            <form asp-action="EditCompany" method="post">
+                <input type="hidden" asp-for="CompanyId"/>
+
+            <div class="section">
+                <h4>Company Details</h4>
+
+                    <div class="form-group">
+                        <label asp-for="CompanyName" class="control-label">CompanyName</label>
+                        <input asp-for="CompanyName" class="form-control" />
+                        <span asp-validation-for="CompanyName" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Telephone" class="control-label">Telephone</label>
+                        <input asp-for="Telephone" class="form-control" />
+                        <span asp-validation-for="Telephone" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="FaxNo" class="control-label">FaxNo</label>
+                        <input asp-for="FaxNo" class="form-control" />
+                        <span asp-validation-for="FaxNo" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="CompanyEmail" class="control-label">Company Email</label>
+                        <input asp-for="CompanyEmail" class="form-control" />
+                        <span asp-validation-for="CompanyEmail" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="District" class="control-label">District</label>
+                        <select asp-for="District" class="form-control">
+                            <option value="">Select</option>
+                            <option value="kathmandu">Kathmandu</option>
+                            <option value="lalitpur">Lalitpur</option>
+                            <option value="bhaktapur">Bhaktapur</option>
+                            <option value="siraha">Siraha</option>
+                            <option value="sindhuli">Sindhuli</option>
+                            <option value="sindhupalchowk">Sindhupalchowk</option>
+                            <option value="makwanpur">Makwanpur</option>
+                            <option value="nuwakot">Nuwakot</option>
+                            <option value="dhading">Dhading</option>
+                            <option value="rasuwa">Rasuwa</option>
+                            <option value="rammechhap">Rammechhap</option>
+                            <option value="dolakha">Dolakha</option>
+                            <option value="kavrepalanchowk">Kavrepalanchowk</option>
+                            <option value="sindhuli">Sindhuli</option>
+                        </select>
+                        <span asp-validation-for="District" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="VDC_Munic" class="control-label">VDC/Municiplacity</label>
+                        <input asp-for="VDC_Munic" class="form-control" />
+                        <span asp-validation-for="VDC_Munic" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="WardNo" class="control-label">Ward No</label>
+                        <input asp-for="WardNo" type="number" class="form-control" />
+                        <span asp-validation-for="WardNo" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Street" class="control-label">Street</label>
+                        <input asp-for="Street" class="form-control" />
+                        <span asp-validation-for="Street" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="BlockNo" class="control-label">Block No</label>
+                        <input asp-for="BlockNo" class="form-control" />
+                        <span asp-validation-for="BlockNo" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Objective" class="control-label">Company Objective</label>
+                        <input asp-for="Objective" class="form-control" />
+                        <span asp-validation-for="Objective" class="text-danger"></span>
+                    </div>
+            </div>  
+                    <div class="section">
+                        <h4>Capital Details</h4>
+                        <div class="form-group">
+                            <label asp-for="CompanyType" class="control-label">CompanyType</label>
+                            <select asp-for="CompanyType" name="CompanyType">
+                                <option value="">Select</option>
+                                <option value="Test Option">Test Option</option>
+                                <option value="munafa_vitran_nagarne">मुनाफा वितरण नगर्ने</option>
+                                <option value="public_sarkar">पब्लिक >> सरकारी</option>
+                                <option value="public_sarkar_sampurna_swamitwa">पब्लिक >> सरकारी >> सम्पूर्ण स्वामित्व</option>
+                                <option value="public_sarkar_jv_government_public">पब्लिक >> सरकारी >> Joint Venture Between government and Public</option>
+                                <option value="public_gair_sarkar">पब्लिक >> गैर सरकारी</option>
+                                <option value="public_gair_sarkar_sampurna_nepali_swamitwa">पब्लिक >> गैर सरकारी>> सम्पूर्ण नेपाली स्वामित्व (पब्लिक)</option>
+                                <option value="public_gair_sarkar_jv_nepali_foreign">पब्लिक >> गैर सरकारी >> Joint Venture between Nepali and foreign company</option>
+                                <option value="private_ekal">प्राइभेट >> एकल</option>
+                                <option value="private_bahul">प्राइभेट >> बहुल</option>
+                                <option value="private_bahul_sampurna_nepali_swamitwa">प्राइभेट >> बहुल >> सम्पूर्ण नेपाली स्वामित्व (प्राइभेट)</option>
+                                <option value="private_bahul_jv_foreign_promoters">प्राइभेट >> बहुल >> Joint Venture with foreign promoters</option>
+                                <option value="private_bahul_sampurna_videsi_swamitwa">प्राइभेट >> बहुल >> सम्पूर्ण विदेशी स्वामित्व</option>
+                                <option value="videsi_karyalay_videsi_sampर्क_karyalay">विदेशी कार्यलय >> विदेशी सम्पर्क कार्यलय</option>
+                                <option value="videsi_karyalay_videsi_shakha_karyalay">विदेशी कार्यलय >> विदेशी शाखा कार्यलय</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Capital" class="control-label">Authorized Capital(Rs.)</label>
+                            <input asp-for="Capital" class="form-control"/>
+                            <span asp-validation-for="Capital" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Rate" class="control-label">Authorized Rate(Rs.)</label>
+                            <input asp-for="Rate" class="form-control"/>
+                            <span asp-validation-for="Rate" class="text-danger"></span>
+                        </div>                    
+                        <div class="form-group">
+                            <label asp-for="IssuedCapital" class="control-label">Issued Capital(Rs.)</label>
+                            <input asp-for="IssuedCapital" class="form-control"/>
+                            <span asp-validation-for="IssuedCapital" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="PaidupCapital" class="control-label">Paid Up Capital (Rs)</label>
+                            <input asp-for="PaidupCapital" class="form-control"/>
+                            <span asp-validation-for="PaidupCapital" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <h4>Witness Details</h4>
+                        <div class="form-group">
+                            <label asp-for="WitnessName" class="control-label">Full Name</label>
+                            <input asp-for="WitnessName" class="form-control"/>
+                            <span asp-validation-for="WitnessName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="WitDistrict" class="control-label">District</label>
+                            <input asp-for="WitDistrict" class="form-control"/>
+                            <span asp-validation-for="WitDistrict" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="WitWardno" class="control-label">Ward No</label>
+                            <input asp-for="WitWardno" class="form-control"/>
+                            <span asp-validation-for="WitWardno" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Citizenship" class="control-label">Citizenship Number</label>
+                            <input asp-for="Citizenship" class="form-control"/>
+                            <span asp-validation-for="Citizenship" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <input type="hidden" asp-for="DocumentPath"></input>
+                            <h4>Uploaded Document</h4>
+                                            @if (!string.IsNullOrEmpty(Model.DocumentPath)) // Ensure Model.DocumentPath contains the file name
+                                            {
+                                                var pdfUrl = Url.Content( Model.DocumentPath);
+                                    <iframe src="@pdfUrl" style="width:100%; height:600px;" frameborder="0"></iframe>
+                                            }
+                                            else
+                                            {
+                                    <p>No document available.</p>
+                                            }
+                    </div>
+                        <div class="buttons">
+                            <button type="submit">Save</button>
+                            <button type="button">Cancel</button>
+                        </div>
+                        
+                </form>
+        </div>
+</body>
+</html>

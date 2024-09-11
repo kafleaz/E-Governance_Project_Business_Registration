@@ -1,0 +1,170 @@
+﻿@model OCR_E_gov.Models.User
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCR Nepal</title>
+    <link rel="stylesheet" href="~/css/style.css">
+    <style>
+        .hidden {
+            display: none;
+        }
+        .alert {
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+            margin-bottom: 15px;
+        }  
+         .welcome  {
+                color: #0f4c7e;
+                text-align: center;
+                margin-top: 20px;
+            }
+            .logoNG {
+                width: 130px;
+                height: 120px;
+                margin: 0 auto;
+                display: block;
+            }
+                .welcome p {
+                    margin-top: 15px;
+                    font-size: large;
+             }
+             .spann{
+                 color: red;
+             }
+    </style>
+</head>
+<body>
+    <div class="reg-nav">
+        <div class="header">
+            <h3></h3>
+            <div class="header-right">
+                <a href="#" id="loginLink">Login</a>
+                <a href="#"></a>
+                <a href="#" id="adminLink">Admin</a>
+            </div>
+        </div>
+        
+        <div class="welcome">
+            <img src="~/img/NG_Logo.png" class="logoNG">
+            <h3>Welcome to <br> Office of the Company Registrar</h3>
+
+            <p>नयाँ कम्पनी दर्ता सम्बन्धी अनलाईन सेवाका लागि कृपया <span class="spann">रजिस्टर</span> गर्नुहोस |</p>
+        </div>
+
+        @if (TempData["SuccessMessage"] != null)
+        {
+                <div class="alert">
+                @TempData["SuccessMessage"]
+                </div>
+        }
+
+        <div class="Reg-container hidden" id="loginContainer">
+            <h2>User Login</h2>
+            <form asp-action="Login">
+                <div class="form-group-reg">
+                    <label asp-for="Username" class="control-label">Username</label>
+                    <input asp-for="Username" class="form-control" />
+                    <span asp-validation-for="Username" class="text-danger"></span>
+                </div>
+                <div class="form-group-reg">
+                    <label asp-for="Password" class="control-label">Password</label>
+                    <input asp-for="Password" type="password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group-reg">
+                    <input type="submit" value="Login" class="btn btn-primary" />
+                </div>
+                <a> Doesnt have account? <a href="#" id="registerLink">Register</a></a>
+            </form>
+        </div>
+
+        <div class="Reg-container hidden" id="adminContainer">
+            <h2>Admin Login</h2>
+            <form asp-action="Login">
+                <div class="form-group-reg">
+                    <label asp-for="Username" class="control-label">Username</label>
+                    <input asp-for="Username" class="form-control" />
+                    <span asp-validation-for="Username" class="text-danger"></span>
+                </div>
+                <div class="form-group-reg">
+                    <label asp-for="Password" class="control-label">Password</label>
+                    <input asp-for="Password" type="password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group-reg">
+                    <input type="submit" value="Login" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+
+        <div class="Reg-container" id="registerContainer">
+            <h2>Register</h2>
+            <form asp-action="Register">
+                <div class="form-group-reg">
+                    <label asp-for="Username" class="control-label">Username</label>
+                    <input asp-for="Username" class="form-control" />
+                    <span asp-validation-for="Username" class="text-danger"></span>
+                </div>
+                <div class="form-group-reg">
+                    <label asp-for="Password" class="control-label">Password</label>
+                    <input asp-for="Password" type="password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group-reg">
+                    <label asp-for="Email" class="control-label">Email</label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group-reg">
+                    <label asp-for="FullName" class="control-label">Full Name</label>
+                    <input asp-for="FullName" class="form-control" />
+                    <span asp-validation-for="FullName" class="text-danger"></span>
+                </div>
+                <div class="form-group-reg">
+                    <input type="submit" value="Register" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('loginLink').addEventListener('click', function(event) {
+            event.preventDefault();
+            document.getElementById('loginContainer').classList.remove('hidden');
+            document.getElementById('adminContainer').classList.add('hidden');
+            document.getElementById('registerContainer').classList.add('hidden');
+        });
+
+        document.getElementById('adminLink').addEventListener('click', function(event) {
+            event.preventDefault();
+            document.getElementById('adminContainer').classList.remove('hidden');
+            document.getElementById('loginContainer').classList.add('hidden');
+            document.getElementById('registerContainer').classList.add('hidden');
+        });
+
+        document.getElementById('registerLink').addEventListener('click', function(event) {
+            event.preventDefault();
+            document.getElementById('adminContainer').classList.add('hidden');
+            document.getElementById('loginContainer').classList.add('hidden');
+            document.getElementById('registerContainer').classList.remove('hidden');
+        });
+
+        // Show login form if registration was successful
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <text>
+                    document.getElementById('loginContainer').classList.remove('hidden');
+                    document.getElementById('registerContainer').classList.add('hidden');
+            </text>
+        }
+    </script>
+</body>
+</html>

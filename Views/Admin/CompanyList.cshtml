@@ -1,0 +1,68 @@
+﻿@model IEnumerable<OCR_E_gov.Models.Company_Register_View_Model>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company List</title>
+    <link rel="stylesheet" href="~/css/style.css">
+    <style>
+        .welcome  {
+                color: #0f4c7e;
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom:20px;
+            }
+            .logoNG {
+                width: 130px;
+                height: 120px;
+                margin: 0 auto;
+                display: block;
+            }
+                .welcome p {
+                    margin: 0;
+                    font-size: large;
+             }
+             .spann{
+                 color: red;
+             }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="welcome">
+            <img src="~/img/NG_Logo.png" class="logoNG">
+            <h3>Admin Panel<br> Office of the Company Registrar</h3>
+        </div>
+        <h2>Company List</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Company Name</th>
+                    <th>Telephone</th>
+                    <th>Fax No</th>
+                    <th>Company Email</th>
+                    <th>District</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var company in Model)
+                {
+                        <tr>
+                            <td>@company.CompanyName</td>
+                            <td>@company.Telephone</td>
+                            <td>@company.FaxNo</td>
+                            <td>@company.CompanyEmail</td>
+                            <td>@company.District</td>
+                            <td>
+                                <a asp-action="EditCompany" asp-route-id="@company.CompanyId">Edit</a>
+                            </td>
+                        </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
